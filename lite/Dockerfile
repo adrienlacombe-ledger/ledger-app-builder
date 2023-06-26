@@ -18,7 +18,8 @@ RUN apk add \
         musl-dev \
         newlib-arm-none-eabi \
         protoc \
-        python3
+        python3 \
+        gzip
 
 # Install pip and wheel
 RUN python3 -m ensurepip --upgrade \
